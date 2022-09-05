@@ -20,6 +20,10 @@ class Solution {
         if(root==null)
             return list;
         queue.offer(root);
+        //Basic level order traversal of a binary tree take a queue insert root and iteratr till queue is empty 
+        //add the children of the every element in the queue
+        //that means every time queue contains the one level of elements so every time we poll the that level elements and add next level elements
+        
         while(!queue.isEmpty()){
             int len=queue.size();
             List<Double> level=new ArrayList<>();
