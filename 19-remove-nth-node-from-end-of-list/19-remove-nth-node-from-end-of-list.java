@@ -10,6 +10,7 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
+        //donw without using extra space
         if(head == null)
             return null;
         int count=0;
