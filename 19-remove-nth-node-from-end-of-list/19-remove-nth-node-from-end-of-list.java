@@ -15,6 +15,7 @@ class Solution {
             return null;
         int count=0;
         ListNode cur=head;
+        //count the nodes in the
         while(cur!=null){
             count++;
             cur=cur.next;
